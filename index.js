@@ -12,6 +12,5 @@ connectMongo("mongodb://localhost:27017/shortId")
   .catch((err) => console.log(err));
 
 app.use("/", urlRoute);
-// app.use('/',connectMongo)
 
 app.listen(port);
